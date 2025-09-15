@@ -2,19 +2,21 @@
 
 import Link from 'next/link';
 import ThemeSwitcher from './ThemeSwitcher';
+import { RocketLaunchIcon } from '@heroicons/react/24/solid';
 
 const Header = () => {
   return (
-    <header className="p-4 bg-gray-100 dark:bg-gray-800">
+    <header className="p-4 bg-transparent">
       <nav className="container flex items-center justify-between mx-auto">
-        <ul className="flex space-x-4">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/login">Login</Link></li>
-          <li><Link href="/signup">Sign Up</Link></li>
-          <li><Link href="/dashboard">Dashboard</Link></li>
-          <li><Link href="/settings">Settings</Link></li>
-        </ul>
-        <ThemeSwitcher />
+        <Link href="/" className="flex items-center space-x-2">
+          <RocketLaunchIcon className="w-8 h-8 text-indigo-500" />
+          <span className="text-2xl font-bold">MyApp</span>
+        </Link>
+        <div className="flex items-center space-x-4">
+          <Link href="/dashboard" className="hover:text-indigo-500">Dashboard</Link>
+          <Link href="/settings" className="hover:text-indigo-500">Settings</Link>
+          <ThemeSwitcher />
+        </div>
       </nav>
     </header>
   );
