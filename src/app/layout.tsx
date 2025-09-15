@@ -1,4 +1,4 @@
-'''import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "./AuthContext";
@@ -18,9 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${inter.className} bg-light text-gray-800 dark:bg-dark dark:text-gray-200`}
-      >
+      <body className={`${inter.className} bg-primary text-light`}>
         <Providers>
           <AuthProvider>{children}</AuthProvider>
         </Providers>
@@ -28,4 +26,3 @@ export default function RootLayout({
     </html>
   );
 }
-'''

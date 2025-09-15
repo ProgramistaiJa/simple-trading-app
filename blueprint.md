@@ -1,39 +1,51 @@
-'''# Blueprint: Simple Trading App
+# Blueprint: Modern Financial App
 
 ## Overview
 
-This document outlines the design, features, and development plan for the Simple Trading App. The application is a web-based platform built with Next.js and Firebase, providing users with a modern and intuitive trading experience. The app has been redesigned with a financial theme, featuring a dark, professional color palette and a clean, minimalist layout.
+This project is a modern financial application built with Next.js and Firebase. It provides users with a platform to manage their finances, track investments, and trade assets in a secure and intuitive environment. The application is designed to be visually appealing, user-friendly, and responsive across all devices.
 
-## Implemented Features & Design
+## Design & Style Guide
 
-### Core Functionality
--   **User Authentication:** Users can sign up and log in to the application through redesigned, modern forms.
--   **Theme Switching:** A theme switcher allows users to toggle between light and dark modes (functionality to be fully restored post-redesign).
+### Color Palette
 
-### Design & Styling
--   **Framework:** The application uses Tailwind CSS for styling.
--   **Modern Financial Theme:** The app has been restyled with a contemporary financial aesthetic.
-    -   **Color Palette:** A dark-themed palette with `primary` (#0D111C), `secondary` (#161B22), and `accent` (#2F81F7) colors creates a professional and focused atmosphere.
-    -   **Typography:** The 'Inter' font is used for its clean and readable characteristics, which is ideal for financial data.
--   **Redesigned Pages:**
-    -   **Home Page:** A new, engaging landing page with a clear call-to-action, feature highlights, and a market overview section.
-    -   **Login/Signup Pages:** The authentication forms have been updated to match the new dark theme, providing a seamless user experience.
--   **Responsive Design:** The layout is designed to be responsive and work on different screen sizes.
+-   **Primary:** `#1a1a1a` (dark background)
+-   **Secondary:** `#2a2a2a` (card and component backgrounds)
+-   **Accent:** `#00ff99` (primary action color)
+-   **Accent Dark:** `#00cc7a` (hover state for accent color)
+-   **Light:** `#f0f0f0` (primary text color)
 
-### Project Structure
--   **`/app`:** App Router for file-based routing.
--   **`/components`:** Reusable UI components, including a new `Icons.tsx` for SVG icons.
--   **`/lib`:** Utility functions and libraries.
--   **`ThemeContext.tsx`:** React context for managing the application's theme.
--   **`AuthProvider.tsx`:** React context for managing user authentication.
+### Typography
 
-## Development Plan
+-   **Font:** Inter (sans-serif)
 
-With the new design in place, the next steps will focus on building out the core trading functionalities and restoring the theme switcher.
+### Visual Effects
 
-1.  **Dashboard Page:** Create a personalized dashboard for logged-in users, displaying portfolio overview, watchlists, and market news.
-2.  **Trading Page:** Implement a feature-rich trading interface with advanced charting, order forms, and real-time data.
-3.  **Portfolio Page:** Develop a detailed portfolio view where users can track their assets, performance, and transaction history.
-4.  **Restore Theme Switcher:** Re-integrate the theme switcher to work with the new design, ensuring it is accessible and functional.
-5.  **Firebase Integration:** Connect the application to Firebase for real-time data, authentication, and other backend services.
-'''
+-   **Shadows:** `shadow-2xl` for a lifted effect on cards and modals.
+-   **Gradients:** `bg-gradient-to-br from-primary to-secondary` for dynamic backgrounds.
+-   **Transitions:** `transition-all duration-300` for smooth animations.
+-   **Transforms:** `transform hover:scale-105` for interactive elements.
+
+## Implemented Features
+
+### Authentication
+
+-   User registration with email and password.
+-   User login with email and password.
+-   Password reset functionality.
+-   Modern and consistent UI across all authentication forms.
+
+### Landing Page
+
+-   A visually appealing hero section with a clear call-to-action.
+-   A features section highlighting the application's key benefits.
+-   A call-to-action section to encourage user sign-ups.
+-   A modern and responsive design with dynamic visual effects.
+
+## Plan for Current Changes (Completed)
+
+-   **Initialize Tailwind CSS:** Set up Tailwind CSS for styling.
+-   **Define Color Palette:** Establish a new, modern color palette in `tailwind.config.ts`.
+-   **Update Layout:** Apply the new color scheme to the main application layout.
+-   **Style Authentication Forms:** Redesign the login, signup, and forgot password pages with the new styles.
+-   **Modernize Landing Page:** Update the home page with a dynamic and visually appealing design.
+-   **Create Blueprint:** Document the project's overview, design, and features in `blueprint.md`.

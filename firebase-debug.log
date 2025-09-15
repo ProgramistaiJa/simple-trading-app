@@ -934,3 +934,204 @@ For CI servers and headless environments, generate a new token with firebase log
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [debug] [2025-09-15T13:38:35.327Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
 [debug] [2025-09-15T13:38:35.327Z] > authorizing via signed-in user (gktosik@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:41:33.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:41:33.763Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:41:33.768Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-09-15T13:41:33.768Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"99908221-b742-4bd7-8dec-2205a5c113c5"}
+[debug] [2025-09-15T13:41:34.205Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-09-15T13:41:34.205Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"uRu8LAFRJsjpcL9QGp14GofKmWxIUAyyOJWFuaG9u10"}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:42:29.952Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:42:29.952Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:42:29.954Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2025-09-15T13:42:29.954Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2025-09-15T13:42:30.034Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2025-09-15T13:42:30.035Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:46:34.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:46:34.988Z] > authorizing via signed-in user (gktosik@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:46:35.023Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:46:35.029Z] > authorizing via signed-in user (gktosik@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:46:43.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:46:43.052Z] > authorizing via signed-in user (gktosik@gmail.com)
+[info] 
+=== Firestore Setup Actuation
+[info] ✔  Wrote firestore.rules 
+[info] ✔  Wrote firestore.indexes.json 
+[info] ✔  Wrote configuration info to firebase.json 
+[info] ✔  Wrote project information to .firebaserc 
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:46:48.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:46:48.653Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:46:48.658Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:48.659Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:48.659Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/trading-app-1/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-09-15T13:46:48.659Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/trading-app-1/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/trading-app-1
+[debug] [2025-09-15T13:46:49.495Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/trading-app-1/services/cloudresourcemanager.googleapis.com 403
+[debug] [2025-09-15T13:46:49.495Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/trading-app-1/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-09-15T13:46:49.496Z] Unable to check that https://cloudresourcemanager.googleapis.com is enabled on trading-app-1. Calls to it will fail if it is not enabled
+[debug] [2025-09-15T13:46:49.496Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:49.496Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:49.496Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-1 [none]
+[debug] [2025-09-15T13:46:50.303Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-1 403
+[debug] [2025-09-15T13:46:50.307Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-1 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-09-15T13:46:50.329Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:50.332Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:50.333Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-09-15T13:46:50.333Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"trading-app-1","name":"Trading App"}
+[debug] [2025-09-15T13:46:50.989Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-09-15T13:46:50.989Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:46:55.809Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:46:55.812Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:46:55.813Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:55.814Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:55.814Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/trading-app-2/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-09-15T13:46:55.814Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/trading-app-2/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/trading-app-2
+[debug] [2025-09-15T13:46:56.581Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/trading-app-2/services/cloudresourcemanager.googleapis.com 403
+[debug] [2025-09-15T13:46:56.582Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/trading-app-2/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-09-15T13:46:56.582Z] Unable to check that https://cloudresourcemanager.googleapis.com is enabled on trading-app-2. Calls to it will fail if it is not enabled
+[debug] [2025-09-15T13:46:56.586Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:56.586Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:56.586Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-2 [none]
+[debug] [2025-09-15T13:46:57.383Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-2 403
+[debug] [2025-09-15T13:46:57.390Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-2 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-09-15T13:46:57.391Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:57.396Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:46:57.396Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-09-15T13:46:57.397Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"trading-app-2","name":"Trading App"}
+[debug] [2025-09-15T13:46:57.573Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-09-15T13:46:57.575Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:47:03.685Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:47:03.685Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:47:03.687Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:03.687Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:03.687Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/trading-app-3/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-09-15T13:47:03.694Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/trading-app-3/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/trading-app-3
+[debug] [2025-09-15T13:47:04.486Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/trading-app-3/services/cloudresourcemanager.googleapis.com 403
+[debug] [2025-09-15T13:47:04.488Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/trading-app-3/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-09-15T13:47:04.488Z] Unable to check that https://cloudresourcemanager.googleapis.com is enabled on trading-app-3. Calls to it will fail if it is not enabled
+[debug] [2025-09-15T13:47:04.489Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:04.489Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:04.495Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-3 [none]
+[debug] [2025-09-15T13:47:05.285Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-3 403
+[debug] [2025-09-15T13:47:05.285Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/trading-app-3 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-09-15T13:47:05.287Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:05.287Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:05.287Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-09-15T13:47:05.287Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"trading-app-3","name":"Trading App"}
+[debug] [2025-09-15T13:47:05.507Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-09-15T13:47:05.508Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.7967048227943892268"}
+[debug] [2025-09-15T13:47:05.509Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:05.509Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:05.510Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7967048227943892268 [none]
+[debug] [2025-09-15T13:47:06.171Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7967048227943892268 200
+[debug] [2025-09-15T13:47:06.171Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7967048227943892268 {"name":"operations/create_project.global.7967048227943892268"}
+[debug] [2025-09-15T13:47:06.672Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:06.675Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:06.675Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:06.675Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7967048227943892268 [none]
+[debug] [2025-09-15T13:47:06.844Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7967048227943892268 200
+[debug] [2025-09-15T13:47:06.844Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7967048227943892268 {"name":"operations/create_project.global.7967048227943892268","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"483617535200","projectId":"trading-app-3","lifecycleState":"ACTIVE","name":"Trading App","createTime":"2025-09-15T13:47:06.230540Z"}}
+[debug] [2025-09-15T13:47:06.855Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:06.855Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:06.856Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/trading-app-3:addFirebase [none]
+[debug] [2025-09-15T13:47:10.522Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/trading-app-3:addFirebase 200
+[debug] [2025-09-15T13:47:10.523Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/trading-app-3:addFirebase {"name":"operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0"}
+[debug] [2025-09-15T13:47:10.523Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:10.523Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:10.524Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 [none]
+[debug] [2025-09-15T13:47:13.639Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 200
+[debug] [2025-09-15T13:47:13.639Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 {"name":"operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0"}
+[debug] [2025-09-15T13:47:14.140Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:14.141Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:14.141Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:14.141Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 [none]
+[debug] [2025-09-15T13:47:14.806Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 200
+[debug] [2025-09-15T13:47:14.807Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 {"name":"operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0"}
+[debug] [2025-09-15T13:47:15.807Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:15.817Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:15.817Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:15.818Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 [none]
+[debug] [2025-09-15T13:47:16.499Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 200
+[debug] [2025-09-15T13:47:16.499Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 {"name":"operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0"}
+[debug] [2025-09-15T13:47:18.501Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:18.502Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:18.502Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:18.502Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 [none]
+[debug] [2025-09-15T13:47:19.030Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 200
+[debug] [2025-09-15T13:47:19.030Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 {"name":"operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0"}
+[debug] [2025-09-15T13:47:23.033Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:23.034Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:23.034Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:23.034Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 [none]
+[debug] [2025-09-15T13:47:23.461Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 200
+[debug] [2025-09-15T13:47:23.470Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0 {"name":"operations/workflows/ZjQzMTE3MjUtZmQ4OC00NzlkLTk5YTktMWMzNzRmYmQzYWY0","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"trading-app-3","projectNumber":"483617535200","displayName":"Trading App","name":"projects/trading-app-3","resources":{"hostingSite":"trading-app-3"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: trading-app-3
+[info]    - Project Name: Trading App
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/trading-app-3/overview
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:47:33.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:47:33.281Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:47:33.290Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:33.290Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:33.290Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps [none]
+[debug] [2025-09-15T13:47:33.291Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps {"displayName":"Trading App Web"}
+[debug] [2025-09-15T13:47:34.514Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps 200
+[debug] [2025-09-15T13:47:34.514Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps {"name":"operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4"}
+[debug] [2025-09-15T13:47:34.515Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:34.515Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:34.515Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 [none]
+[debug] [2025-09-15T13:47:35.007Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 200
+[debug] [2025-09-15T13:47:35.007Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 {"name":"operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4"}
+[debug] [2025-09-15T13:47:35.508Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:35.518Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:35.519Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:35.519Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 [none]
+[debug] [2025-09-15T13:47:35.883Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 200
+[debug] [2025-09-15T13:47:35.885Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 {"name":"operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4"}
+[debug] [2025-09-15T13:47:36.886Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:36.888Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:36.888Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:36.888Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 [none]
+[debug] [2025-09-15T13:47:37.195Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 200
+[debug] [2025-09-15T13:47:37.195Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 {"name":"operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4"}
+[debug] [2025-09-15T13:47:39.196Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-09-15T13:47:39.198Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:39.198Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:39.199Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 [none]
+[debug] [2025-09-15T13:47:39.615Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 200
+[debug] [2025-09-15T13:47:39.617Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4 {"name":"operations/workflows/MTgyNTBiZmUtMmU5OS00NWZmLWIyMzEtYWIzNGJmMzU0YWQ4","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.WebApp","name":"projects/simple-trading-app/webApps/1:958123858037:web:bbe9ffda14599fef75803c","appId":"1:958123858037:web:bbe9ffda14599fef75803c","displayName":"Trading App Web","projectId":"simple-trading-app","webId":"MDJlZjFjMGQtZGY3OC00MjhlLWFhNTItNmMxNWY3ZWVlZTYw","apiKeyId":"ff50e5ba-c547-47c7-a500-407ed347b4d7","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_42518de5-0a51-41ab-8d30-150b35289753"}}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:47:45.639Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:47:45.639Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:47:45.641Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:45.645Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:45.646Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps pageSize=100
+[debug] [2025-09-15T13:47:45.979Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps 200
+[debug] [2025-09-15T13:47:45.980Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/simple-trading-app/webApps {"apps":[{"name":"projects/simple-trading-app/webApps/1:958123858037:web:6ddcaccebb1873d475803c","appId":"1:958123858037:web:6ddcaccebb1873d475803c","displayName":"Simple Trading App","projectId":"simple-trading-app","webId":"NGRkMzI0YjItOGRlYy00M2UzLWIzNDctOTA4NzYwNjAzYWMw","apiKeyId":"ff50e5ba-c547-47c7-a500-407ed347b4d7","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_708fccfc-9a0d-4e58-ab4b-e2f0c781f243"},{"name":"projects/simple-trading-app/webApps/1:958123858037:web:bbe9ffda14599fef75803c","appId":"1:958123858037:web:bbe9ffda14599fef75803c","displayName":"Trading App Web","projectId":"simple-trading-app","webId":"MDJlZjFjMGQtZGY3OC00MjhlLWFhNTItNmMxNWY3ZWVlZTYw","apiKeyId":"ff50e5ba-c547-47c7-a500-407ed347b4d7","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_42518de5-0a51-41ab-8d30-150b35289753"}]}
+[debug] [2025-09-15T13:47:45.980Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:45.980Z] Checked if tokens are valid: true, expires at: 1757947349035
+[debug] [2025-09-15T13:47:45.981Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:958123858037:web:6ddcaccebb1873d475803c/config [none]
+[debug] [2025-09-15T13:47:46.387Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:958123858037:web:6ddcaccebb1873d475803c/config 200
+[debug] [2025-09-15T13:47:46.387Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:958123858037:web:6ddcaccebb1873d475803c/config {"projectId":"simple-trading-app","appId":"1:958123858037:web:6ddcaccebb1873d475803c","storageBucket":"simple-trading-app.firebasestorage.app","apiKey":"AIzaSyDtmj8CeZiTgqwofnJUDfp07AYnnfgquxA","authDomain":"simple-trading-app.firebaseapp.com","messagingSenderId":"958123858037","measurementId":"G-RKQDMF7BVM"}

@@ -4,7 +4,17 @@ import { ThemeProvider } from "next-themes";
 import { type ThemeProviderProps } from "next-themes/dist/types";
 
 const Providers = ({ children, ...props }: ThemeProviderProps) => {
-  return <ThemeProvider attribute="class" {...props}>{children}</ThemeProvider>;
+  return (
+    <ThemeProvider 
+        attribute="class" 
+        defaultTheme="system" 
+        enableSystem
+        disableTransitionOnChange
+        {...props}
+    >
+        {children}
+    </ThemeProvider>
+  );
 };
 
 export default Providers;
