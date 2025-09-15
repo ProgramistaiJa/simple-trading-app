@@ -1,9 +1,15 @@
 'use client';
 
-import { useTheme } from '../ThemeContext';
+import { useTheme } from "next-themes";
+import { useEffect, useState } from 'react';
 
 const SettingsPage = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
@@ -12,10 +18,10 @@ const SettingsPage = () => {
         <div className="flex items-center justify-between">
           <p className="text-lg text-gray-600 dark:text-gray-300">Theme</p>
           <button
-            onClick={toggleTheme}
+            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
             className="px-4 py-2 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600"
           >
-            {theme === 'light' ? 'Switch to Dark' : 'Switch to Light'}
+            {mounted ? (theme === 'light' ? 'Switch to Dark' : 'Switch to Light') : '...'}
           </button>
         </div>
       </div>
