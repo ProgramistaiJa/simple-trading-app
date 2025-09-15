@@ -11,6 +11,7 @@ import { useRouter } from "next/navigation";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
   const router = useRouter();
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -20,6 +21,7 @@ export default function Login() {
       router.push("/dashboard");
     } catch (error) {
       console.error("Error signing in with email and password", error);
+      setError("Failed to sign in. Please check your email and password.");
     }
   };
 
@@ -30,6 +32,7 @@ export default function Login() {
       router.push("/dashboard");
     } catch (error) {
       console.error("Error signing in with Google", error);
+      setError("Failed to sign in with Google. Please try again.");
     }
   };
 
@@ -37,6 +40,7 @@ export default function Login() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
         <h1 className="text-2xl font-bold text-center text-gray-900">Login</h1>
+        {error && <p className="text-red-500 text-center">{error}</p>}
         <form onSubmit={handleLogin} className="space-y-6">
           <div>
             <label
