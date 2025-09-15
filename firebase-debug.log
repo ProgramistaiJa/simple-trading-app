@@ -740,3 +740,75 @@ For CI servers and headless environments, generate a new token with firebase log
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [debug] [2025-09-15T12:43:11.950Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
 [debug] [2025-09-15T12:43:11.950Z] > authorizing via signed-in user (gktosik@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:09:22.470Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.471Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.472Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.472Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.473Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.473Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.474Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.474Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.474Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.474Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.476Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ [none]
+[debug] [2025-09-15T13:09:22.476Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.528Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-09-15T13:09:22.528Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.531Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-09-15T13:09:22.531Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.533Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-09-15T13:09:22.534Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.536Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com [none]
+[debug] [2025-09-15T13:09:22.536Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com x-goog-quota-user=projects/simple-trading-app
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:09:22.634Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.635Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.635Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.636Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.636Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.636Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.637Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.637Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.637Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.638Z] Checked if tokens are valid: true, expires at: 1757943789960
+[debug] [2025-09-15T13:09:22.638Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ [none]
+[debug] [2025-09-15T13:09:22.638Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.642Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-09-15T13:09:22.642Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.646Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-09-15T13:09:22.646Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.649Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-09-15T13:09:22.650Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:22.655Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com [none]
+[debug] [2025-09-15T13:09:22.655Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com x-goog-quota-user=projects/simple-trading-app
+[debug] [2025-09-15T13:09:23.304Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com 403
+[debug] [2025-09-15T13:09:23.305Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com [omitted]
+[debug] [2025-09-15T13:09:23.362Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com 403
+[debug] [2025-09-15T13:09:23.362Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseio.com [omitted]
+[debug] [2025-09-15T13:09:23.383Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-09-15T13:09:23.383Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-09-15T13:09:23.404Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-09-15T13:09:23.404Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-09-15T13:09:23.427Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ 200
+[debug] [2025-09-15T13:09:23.428Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ [omitted]
+[debug] [2025-09-15T13:09:23.433Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-09-15T13:09:23.433Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-09-15T13:09:23.451Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-09-15T13:09:23.451Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-09-15T13:09:23.452Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-09-15T13:09:23.453Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-09-15T13:09:23.482Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-09-15T13:09:23.484Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/firebasedataconnect.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:09:23.491Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:09:23.496Z] > authorizing via signed-in user (gktosik@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-09-15T13:09:23.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-15T13:09:23.524Z] > authorizing via signed-in user (gktosik@gmail.com)
+[debug] [2025-09-15T13:09:23.675Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ 200
+[debug] [2025-09-15T13:09:23.676Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simple-trading-app/services/ [omitted]

@@ -1,5 +1,7 @@
-"use client";
+'use client';
 import Link from "next/link";
+import Image from "next/image";
+import { SVGProps } from "react";
 
 export default function Page() {
   return (
@@ -65,7 +67,7 @@ export default function Page() {
                   </li>
                 </ul>
               </div>
-              <img
+              <Image
                 alt="Image"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
                 height="310"
@@ -80,7 +82,7 @@ export default function Page() {
   );
 }
 
-function CheckIcon(props: any) {
+function CheckIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
